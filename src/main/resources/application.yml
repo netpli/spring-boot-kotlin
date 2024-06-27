@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: env.properties
+  application:
+    name: ${SPRING_APPLICATION_NAME}
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI}
+      database: ${SPRING_DATA_MONGODB_DATABASE}
